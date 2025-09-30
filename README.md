@@ -76,3 +76,15 @@ If a packet matches a rule like "ALLOW SSH 22 TEST", it is permitted to pass thr
 Default Policy: If the packet doesn't match any explicit rule, the firewall applies its default policy. In Windows/Linux, the default policy for inbound connections is usually DENY for maximum security.
 
 This filtering mechanism ensures that only authorized and necessary traffic reaches the protected system, preventing unauthorized connections and potential attacks.
+2. Content Checklist
+The provided structure fully covers all the requirements of your original task:
+
+Deliverable Requirement	Covered in Your Report
+Screenshot/config file showing block rule	Yes (via task 4 pic3.png, task4 pic4.png, and the final rule list)
+Screenshot showing test result	Yes (PIC 6.png)
+Document commands/GUI steps used	Yes (Detailed steps for Block, Test, and Allow)
+Summarize how firewall filters traffic	Yes (Section 5: Summary)
+Add rule to allow SSH (Port 22)	Yes (Section 3: Adding an Allow Rule)
+Remove the test block rule (Restoration)	Yes (Section 4: Cleanup and Restoration)
+
+
